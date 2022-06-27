@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="fonts/" rel="stylesheet">
+    <link href="img/" rel="stylesheet">
+    <title>Melhor Seguro</title>
+
+    <body>
+        <header class="cabecalho">
+          <img class="cabecalho-imagem" src="img/logomelhorseguro.svg" alt="Logo">
+          <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="#">QUEM SOMOS</a>
+            <a class="cabecalho-menu-item" href="#">COBERTURA</a>
+            <a class="cabecalho-menu-item" href="#">ATENDIMENTO</a>
+            <a class="cabecalho-menu-item" href="#">ENTRAR</a>
+            <img class="menu-vector" src="img/Vector.svg">
+          </nav>
+        </header>
+
+    <main>
+        <aside>
+            <p>Encontre o seguro viagem com o melhor preco.</p>
+            <form>
+                <img class="users" src="img/users.svg">
+                <input type="text" placeholder="Destino">
+                <input type="number" placeholder="Quantas pessoas?">
+                <input type="date" placeholder="Embarque">
+                <input type="date" placeholder="Desembarque">
+                <input type="submit" value="Enviar">
+            </form>
+        </aside>
+
+        <article>
+            <img src="./components/images/77d0a7c454e658833800528e748edbe9.png" alt="">
+        </article>
+    </main>
+    
+</body>
+</html>
