@@ -63,6 +63,11 @@
 <div class="img">
     <img src="img/dubai.png" alt="cards"
 </div>
+<div class="seguradora">
+
+<img src="img/seguradora.png" alt="seguradora">
+
+</div>
     <footer class="rodape">
         <img class="rodape-imagem" src="img/footer1.png">
       </footer>
