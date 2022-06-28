@@ -101,6 +101,9 @@ header {
     padding-right: 800;
     
 }
+.inicio-nao-interativo{
+    margin-left: -25px;
+}
 
 h2{
     font-weight: 950;
@@ -113,42 +116,6 @@ h2{
     background-image: url(img/Retângulo\ 2.png);
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    width: 251%;
-    height: 150px;
-}
-
-form [type="submit"]{
-    height: 50px;
-    width:6%;
-    background-color: rgba(96, 92, 168, 1);
-    padding: 10px 0;
-    color: white;
-    justify-content: right;
-    display: flex;
-    border: 10px;
-}
-    
-form [type="submit"]:hover{
-    cursor: pointer;
-    border: 15px;
-}
-
-input{
-    margin-top: 20px;
-    top: 546px;
-    left: 426px;
-    width: 183px;
-    height: 19px;
-    padding: 15px;
-    border-radius: 5px;
-    border: none;
-    font-size: 15px;
-    justify-content: center;
-    box-shadow: 5px 5px 5px 5px rgba(245, 245, 245, 1);
-}
 
 cor-form {
     background:#4f4f4f; 
@@ -178,12 +145,21 @@ a:hover{
 @media screen and (max-width: 730px) {
     .nav-bar {
         padding: 1.5rem 4rem;
+        border: none;
+        border-radius: 20px;
+        background-color: rgba(96, 92, 168, 1);
     }
     .nav-item {
-        display: none;
+        padding: 1.5rem 4rem;
+        border: none;
+        border-radius: 20px;
+        background-color: rgba(96, 92, 168, 1);
     }
     .login-button {
-        display: none;
+        padding: 1.5rem 4rem;
+        border: none;
+        border-radius: 20px;
+        background-color: rgba(96, 92, 168, 1);
     }
     .mobile-menu-icon {
         display: block;
