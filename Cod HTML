@@ -29,12 +29,12 @@
             </a>
             </div>
 
-            <div class="inicio nao interativo";
+            <div class="inicio-nao-interativo";
             <img src="img/Saly-15 1.png">
             </div>
 
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+                <button onclick="menuShow()"><img class="icon" src="img/suporte.png" alt=""></button>
             </div>
         </nav>
         <div class="mobile-menu">
@@ -54,14 +54,9 @@
             <img src="img/Saly-15 1.png" alt="barra"
         </div>
 
-            <form>
-               <input type="text" placeholder="Destino">
-                <input type="number" placeholder="Quantas pessoas?">
-                <input type="date" placeholder="Embarque">
-                <input type="date" placeholder="Desembarque">
-                <input type="submit" value="Pesquisar Seguro Viagem">
-            </form>
-        </aside>
+        <div class>
+            <img src="img/form.png"
+        </div>
 
         
     </main>
