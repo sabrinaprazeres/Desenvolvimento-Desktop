@@ -1,43 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <link href="fonts/" rel="stylesheet">
-    <link href="img/" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Melhor Seguro</title>
+</head>
 
-    <body>
-        <header class="cabecalho">
-          <img class="cabecalho-imagem" src="img/logomelhorseguro.svg" alt="Logo">
-          <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item" href="#">QUEM SOMOS</a>
-            <a class="cabecalho-menu-item" href="#">COBERTURA</a>
-            <a class="cabecalho-menu-item" href="#">ATENDIMENTO</a>
-            <a class="cabecalho-menu-item" href="#">ENTRAR</a>
-            <img class="menu-vector" src="img/Vector.svg">
-          </nav>
-        </header>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="img/MS - NOVEMBRO - FINAL - 2021-09 1.png" alt="Logo"
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">QUEM SOMOS</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">COBERTURA</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ATENDIMENTO</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ENTRAR</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <a>
+                <button><img src="img/Vector.svg" alt="user"></button>
+            </a>
+            </div>
 
+            <div class="inicio nao interativo";
+            <img src="img/Saly-15 1.png">
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">QUEM SOMOS</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">COBERTURA</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">ATENDIMENTO</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">ENTRAR</a></li>
+            </ul>
+            
+
+        </div>
+    </header>
+    
     <main>
-        <aside>
-            <p>Encontre o seguro viagem com o melhor preco.</p>
+        <div class="barra">
+            <img src="img/Saly-15 1.png" alt="barra"
+        </div>
+
             <form>
-                <img class="users" src="img/users.svg">
-                <input type="text" placeholder="Destino">
+               <input type="text" placeholder="Destino">
                 <input type="number" placeholder="Quantas pessoas?">
                 <input type="date" placeholder="Embarque">
                 <input type="date" placeholder="Desembarque">
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Pesquisar Seguro Viagem">
             </form>
         </aside>
 
-        <article>
-            <img src="./components/images/77d0a7c454e658833800528e748edbe9.png" alt="">
-        </article>
+        
     </main>
+<div class="img">
+    <img src="img/dubai.png" alt="cards"
+</div>
+    <footer class="rodape">
+        <img class="rodape-imagem" src="img/footer1.png">
+      </footer>
     
 </body>
 </html>
